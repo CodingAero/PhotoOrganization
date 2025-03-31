@@ -51,10 +51,10 @@
             <h2 class="section-title">Overview</h2>
             <div class="experience">
                 <p>
-                    Photo Organization is a Python program that moves photos from an unsorted folder to a sorted folder. 
-                    The photos are placed within two folders corresponding first to the photo's creation year and then 
-                    further into a folder corresponding to the folder's creation month. This page provides an overview 
-                    of the code but may at times become outdated. The latest code can be found 
+                    Photo Organization is a Python program that moves photos to a structured set of sorted folders. 
+                    Each photo is placed within a folder structure corresponding to its creation year and month. 
+                    (e.g. 'path/year/month/image.img') This page provides an overview of the code but may at times 
+                    become outdated. The latest code can be found 
                     <a href="https://github.com/CodingAero/PhotoOrganization">on the associated GitHub page</a>.
                     <br>
                     <br>
@@ -90,31 +90,43 @@
                     '''
                     PROCESSED ----------------------------------------------------------------
                     JPEG (.jpg, .jpeg):
-                        A widely used format for photos, known for its good compression and ability to handle a wide range of colors, but it can also result in some image quality loss.
+                        A widely used format for photos, known for its good compression and ability to handle a wide range 
+                        of colors, but it can also result in some image quality loss.
                     PNG (.png):
-                        A lossless format that's good for images with sharp details and transparency, often used for web graphics.
+                        A lossless format that's good for images with sharp details and transparency, often used for web 
+                        graphics.
                     GIF (.gif):
-                        A format known for its ability to support simple animations and images with a limited color palette, often used for web graphics and simple animations.
+                        A format known for its ability to support simple animations and images with a limited color 
+                        palette, often used for web graphics and simple animations.
                     BMP (.bmp):
-                        A simple, uncompressed image format that's commonly used on Windows systems, but can result in large file sizes.
+                        A simple, uncompressed image format that's commonly used on Windows systems, but can result in 
+                        large file sizes.
                     HEIF (.heic, .heif):
-                        A high-efficiency image format developed by Apple that offers better compression and quality than JPEG, often used on iPhones and iPads.
+                        A high-efficiency image format developed by Apple that offers better compression and quality than 
+                        JPEG, often used on iPhones and iPads.
                     TIFF (.tiff):
-                        A versatile format that's often used for high-quality images and professional photography, known for its ability to preserve image quality and metadata.
+                        A versatile format that's often used for high-quality images and professional photography, known 
+                        for its ability to preserve image quality and metadata.
                     SVG (.svg):
-                        A vector graphics format that's designed for web use, allowing for scalable images that can be displayed on different devices and resolutions.
+                        A vector graphics format that's designed for web use, allowing for scalable images that can be 
+                        displayed on different devices and resolutions.
 
                     IGNORED ------------------------------------------------------------------
                     WebP (.webp):
-                        A modern format developed by Google that offers a good balance of image quality and file size, often used for web images.
+                        A modern format developed by Google that offers a good balance of image quality and file size, 
+                        often used for web images.
                     EPS (.eps):
-                        A vector graphics format that's used for images that need to be scalable without losing quality, often used in print and design applications.
+                        A vector graphics format that's used for images that need to be scalable without losing quality, 
+                        often used in print and design applications.
                     RAW (.raw):
-                        A format that captures the raw data from a camera's sensor, offering the most flexibility for editing, but also resulting in large file sizes.
+                        A format that captures the raw data from a camera's sensor, offering the most flexibility for 
+                        editing, but also resulting in large file sizes.
                     PDF (.pdf):
-                        A versatile format that can contain images and other content, often used for sharing documents and portfolios.
+                        A versatile format that can contain images and other content, often used for sharing documents 
+                        and portfolios.
                     AVIF (.avif):
-                        A modern image format that uses the AV1 video codec for efficient compression, offering high quality and small file sizes.
+                        A modern image format that uses the AV1 video codec for efficient compression, offering high 
+                        quality and small file sizes.
                     '''
                     photo_extensions = ['jpg','jpeg','png','gif','bmp','heic','heif','tiff','svg']
 
